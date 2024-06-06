@@ -1,0 +1,691 @@
+
+@media(max-width:1400px){
+    .w-xxl-1{width:8.33%;}
+    .w-xxl-2{width:16.66%;}
+    .w-xxl-3{width:25%;}
+    .w-xxl-4{width:33.33%;}
+    .w-xxl-5{width:41.66%;}
+    .w-xxl-6{width:50%;}
+    .w-xxl-7{width:58.33%;}
+    .w-xxl-8{width:66.66%;}
+    .w-xxl-9{width:75%;}
+    .w-xxl-10{width:83.33%;}
+    .w-xxl-11{width:91.66%;}
+    .w-xxl-12{width:100%;}
+    .container{
+        max-width: 1320px;
+    }
+    .sales .s-img img{
+      margin: auto;
+    }
+    .testimonial .t-sub .w-10{
+        padding: 0 100px;
+    }
+    .f-sub .f-sub1 h2{
+        font-size: 24px;
+     }
+     .f-sub .email input{
+        padding: 18px;
+        border: none;
+        width: 350px;
+        font-size: 18px;
+        outline: none;
+    }
+    .f-sub .subscribe{
+        border: 2px solid var(--black);
+        background-color: var(--black);
+        color: var(--white);
+        padding:16px;
+        font-weight: 600;
+        font-size: 18px;
+        transition:all 0.2s linear;
+        margin-left: -5px;
+    }
+}
+@media(max-width:1200px){
+    .w-xl-1{width:8.33%;}
+    .w-xl-2{width:16.66%;}
+    .w-xl-3{width:25%;}
+    .w-xl-4{width:33.33%;}
+    .w-xl-5{width:41.66%;}
+    .w-xl-6{width:50%;}
+    .w-xl-7{width:58.33%;}
+    .w-xl-8{width:66.66%;}
+    .w-xl-9{width:75%;}
+    .w-xl-10{width:83.33%;}
+    .w-xl-11{width:91.66%;}
+    .w-xl-12{width:100%;}
+    .container{
+        max-width: 1140px;
+    }
+    .header .menu .menu-item{
+        display: none;
+    }
+    .header .menu .contacts{
+        display: none;
+    }
+    .header .menu .magnify-glass{
+        display: none;
+    }
+    .header .menu .bar{
+        display:block;
+    }
+    .header .menu .bar i{
+        font-size:32px;
+    }
+    .products .title span::after{
+        content:"Products";
+        font-size:150px;
+        font-weight:700;
+        color:var(--darkgrey);
+        position:absolute;
+        z-index:-1;
+        top:-80px;
+        left:-100px;	
+    }
+    .products .row .p-card{
+        margin-bottom: 30px;
+    }
+    .dealer .row .con-right h3{
+        font-size:50px;
+    }
+    .discount .dis-1{
+        padding:60px 16px;
+    }
+    .discount .row .d-card-1 .disimg-1{
+        max-height: 580px;
+    }
+    .discount .row {
+        margin:0 90px;
+    }
+    .blog .b-card .b-con h3{
+        padding:15px 0;
+        font-size:32px;
+        font-weight:700;
+        color:var(--secondary);
+    }
+    .blog .b-card .b-con .bp-1{
+        padding:30px 0;
+        font-size:16px;
+    }
+    .f-sub .f-sub1 h2{
+        font-size: 28px;
+     }
+     .f-sub .email input{
+        padding: 18px;
+        border: none;
+        width: 300px;
+        font-size: 18px;
+        outline: none;
+    }
+    .f-sub .subscribe{
+        border: 2px solid var(--black);
+        background-color: var(--black);
+        color: var(--white);
+        padding:16px;
+        font-weight: 600;
+        font-size: 18px;
+        transition:all 0.2s linear;
+        margin-left: -5px;
+    }
+    
+}
+@media(max-width:992px){
+    .w-lg-1{width:8.33%;}
+    .w-lg-2{width:16.66%;}
+    .w-lg-3{width:25%;}
+    .w-lg-4{width:33.33%;}
+    .w-lg-5{width:41.66%;}
+    .w-lg-6{width:50%;}
+    .w-lg-7{width:58.33%;}
+    .w-lg-8{width:66.66%;}
+    .w-lg-9{width:75%;}
+    .w-lg-10{width:83.33%;}
+    .w-lg-11{width:91.66%;}
+    .w-lg-12{width:100%;}
+    .container{
+        max-width: 960px;
+    }
+    .about .row .con-left .title{
+        font-size:50px;
+    }
+    .dealer .row .con-right h3{
+        font-size: 40px;
+    }
+    .dealer .row .con-right p{
+        font-size:16px;
+    }
+    .dealer .row .con-left{
+        background-image: none;
+    }
+    .dealer .row .con-right .d-btn .b-1{
+        padding:6px 30px;
+    }
+    .dealer .row .con-right .d-btn .b-2{
+        padding:6px 30px;
+    }
+    .testimonial .t-sub .w-10{
+        padding: 0 10px;
+    }
+    .photo .photos .row .w-2 img{
+        width:120px;
+        height: 75px;
+    }
+    .discount .row {
+        margin:0 70px;
+    }
+    .discount .dis-1{
+        padding:60px 16px;
+    }
+    .testimonial .t-con .t-sub .left-slider a i{
+        padding: 10px;
+    }
+    .testimonial .t-con .t-sub .right-slider a i{
+        padding: 10px;
+    }
+    .testimonial .t-con .t-sub-con .ts-p3{
+        font-size:18px;
+        font-weight:500;
+        color:var(--white);
+        padding:15px 15px;
+    }
+    .f-sub .email input{
+        width:200px;
+    }
+    .footer-con .top{
+        display: none;
+    }
+    .footer-con .f-main .f-2{
+        display: none;
+    }
+    .footer-con .row{
+        margin:0 auto;
+    }
+    .f-sub .icons{
+        display: none;
+    }
+    .f-sub .email input{
+        padding: 18px;
+        border: none;
+        width: 250px;
+        font-size: 14px;
+        outline: none;
+    }
+    .f-sub .subscribe{
+        border: 2px solid var(--black);
+        background-color: var(--black);
+        color: var(--white);
+        padding:16px;
+        font-weight: 600;
+        font-size: 14px;
+        transition:all 0.2s linear;
+        margin-left: -5px;
+    }
+    }
+    
+@media(max-width:768px){
+    .w-md-1{width:8.33%;}
+    .w-md-2{width:16.66%;}
+    .w-md-3{width:25%;}
+    .w-md-4{width:33.33%;}
+    .w-md-5{width:41.66%;}
+    .w-md-6{width:50%;}
+    .w-md-7{width:58.33%;}
+    .w-md-8{width:66.66%;}
+    .w-md-9{width:75%;}
+    .w-md-10{width:83.33%;}
+    .w-md-11{width:91.66%;}
+    .w-md-12{width:100%;}
+    .container{
+        max-width: 720px;
+    }
+    .main-banner .m-btn a{
+        padding:6px 24px;
+    }
+    .products .title p{
+        font-size:18px;
+        font-weight:700;
+        color:var(--secondary);
+        padding-bottom:16px;
+        position: relative;
+        z-index:1;
+        margin-bottom: -36px;
+    }
+    .products .title span{
+        font-size:50px;
+        font-weight:700;
+        position:relative;
+        z-index:0;
+        color:var(--white);
+    }
+    .products .title span::after{
+        content:"Products";
+        font-size:100px;
+        font-weight:700;
+        color:var(--darkgrey);
+        position:absolute;
+        z-index:-1;
+        top:-40px;
+        left:-20px;	
+    }
+    .sales .s-con h2{
+        font-size:40px;
+        font-weight:700;
+        padding:6px 0;
+    }
+    .sales .s-country ul{
+        column-count:1;
+    }
+    .dealer .row .con-right{
+        padding-top:50px;
+    }
+    .dealer .row .con-right h3{
+        font-size:40px;
+        font-weight:700;
+    }
+    .photo .photos .row .w-2{
+        margin-bottom: 35px;
+    }
+    .discount .row {
+        margin:0 50px;
+    }
+    .discount .row .d-card-1 h2{
+        font-size:40px;
+    }
+    .discount .row .d-card-1 h4{
+        font-size:18px;
+        font-weight:700;
+        color:var(--secondary);
+    }
+    .discount .row .d-card-1 p{
+        font-size:14px;
+        padding:40px 16px;
+    }
+    .discount .row .d-card-1 .disimg-1{
+        max-height:520px;
+    }
+    .testimonial .t-con .t-sub .left-slider a i{
+        padding: 8px;
+    }
+    .testimonial .t-con .t-sub .right-slider a i{
+        padding: 8px;
+    }
+    .testimonial .t-con .t-sub-con .ts-p3{
+        font-size:16px;
+        font-weight:400;
+        color:var(--white);
+        padding:15px 15px;
+    }
+    .blog .title span::after{
+        display:none;
+    }
+    .blog .b-card .b-con h3{
+        padding:15px 0;
+        font-size:28px;
+        font-weight:700;
+        color:var(--secondary);
+    }
+    .blog .b-card .b-con .bp-1{
+        padding:30px 0;
+        font-size:14px;
+    }
+    .blog .b-card .b-con .b-sub .con-left .bs-1{
+        font-size:44px;
+        font-weight:700;
+        color:var(--secondary);
+    }
+    .blog .b-card .b-con .b-sub .con-right  li{
+        display:inline-block;
+        font-size:12px;
+        padding:3px
+    }
+    .f-sub .f-sub1 h2{
+        font-size: 24px;
+     }
+     .f-sub .email input{
+        padding: 18px;
+        border: none;
+        width: 150px;
+        font-size: 14px;
+        outline: none;
+    }
+    .f-sub .subscribe{
+        border: 2px solid var(--black);
+        background-color: var(--black);
+        color: var(--white);
+        padding: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        transition:all 0.2s linear;
+        margin-left: -5px;
+    }
+    .f-card{
+        margin-bottom: 30px;
+    }
+    .footer-con .f-main .f-2{
+        display: block;
+    }
+}
+@media(max-width:576px){
+    .w-sm-1{width:8.33%;}
+    .w-sm-2{width:16.66%;}
+    .w-sm-3{width:25%;}
+    .w-sm-4{width:33.33%;}
+    .w-sm-5{width:41.66%;}
+    .w-sm-6{width:50%;}
+    .w-sm-7{width:58.33%;}
+    .w-sm-8{width:66.66%;}
+    .w-sm-9{width:75%;}
+    .w-sm-10{width:83.33%;}
+    .w-sm-11{width:91.66%;}
+    .w-sm-12{width:100%;}
+    .container{
+        max-width: 540px;
+    }
+    .header .menu .cart-no{
+        display: none;
+    }
+    .main-banner .m-btn a{
+        padding:4px 18px;
+    }
+    .products .title ul li a{
+        font-size:14px;
+    }
+    .sales .s-con h2{
+        font-size:32px;
+    }
+    .sales .s-con p{
+        font-size:18px;
+    }
+    .sales .s-country h3{
+        font-size:24px;
+    }
+    .discount .row {
+        margin:0 20px;
+    }
+    .discount .row .d-card-1 h2{
+        font-size:30px;
+    }
+    .discount .row .d-card-1 h4{
+        font-size:14px;
+        font-weight:700;
+        color:var(--secondary);
+    }
+    .discount .row .d-card-1 p{
+        font-size:13px;
+        padding:40px 16px;
+    }
+    .testimonial .t-con .t-sub .left-slider a i{
+        padding: 3px;
+    }
+    .testimonial .t-con .t-sub .right-slider a i{
+        padding: 3px;
+    }
+    .testimonial .t-con .t-sub-con .ts-p3{
+        font-size:14px;
+        font-weight:300;
+        color:var(--white);
+        padding:15px;
+    }
+    .blog .b-card .b-con .b-sub .con-right  li{
+        display:inline-block;
+        font-size:14px;
+        padding:5px;
+    }
+    .blog .b-card .b-con .b-sub .con-left .bs-1{
+        font-size:48px;
+        font-weight:700;
+        color:var(--secondary);
+    }
+    .footer-con .f-sub .f-sub1{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:425px){
+    .w-xsm-1{width:8.33%;}
+    .w-xsm-2{width:16.66%;}
+    .w-xsm-3{width:25%;}
+    .w-xsm-4{width:33.33%;}
+    .w-xsm-5{width:41.66%;}
+    .w-xsm-6{width:50%;}
+    .w-xsm-7{width:58.33%;}
+    .w-xsm-8{width:66.66%;}
+    .w-xsm-9{width:75%;}
+    .w-xsm-10{width:83.33%;}
+    .w-xsm-11{width:91.66%;}
+    .w-xsm-12{width:100%;}
+    .container{
+        max-width:400px;
+        margin:0 auto;
+    }
+    .about .row .con-left .title{
+        font-size:40px;
+    }
+    .about .row .con-left p{
+        padding:30px 0;
+    }
+    .about .row .con-left .sign{
+        padding: 15px 0;
+    }
+    .about .row .con-right .a-card{
+        padding:15px 0;
+    }
+    .products .title p{
+        font-size:14px;
+        font-weight:700;
+        color:var(--secondary);
+        padding-bottom:16px;
+        position: relative;
+        z-index:1;
+        margin-bottom: -36px;
+    }
+    .products .title span{
+        font-size:40px;
+        font-weight:700;
+        position:relative;
+        z-index:0;
+        color:var(--white);
+    }
+    .products .title span::after{
+        content:"Products";
+        font-size:80px;
+        font-weight:700;
+        color:var(--darkgrey);
+        position:absolute;
+        z-index:-1;
+        top:-32px;
+        left:-18px;	
+    }
+    .products .title ul{
+        padding:20px 0;
+    }
+    .products .p-btn{
+        padding:30px 0;
+    }
+    .sales .s-con h2{
+        font-size:24px;
+    }
+    .sales .s-con p{
+        font-size:14px;
+    }
+    .sales .s-country h3{
+        font-size:18px;
+    }
+    .sales .s-country ul li{
+        font-size:14px;
+    }
+    .dealer .row .con-right h3{
+        font-size:32px;
+    }
+    .dealer .row .con-right .d-btn .b-1{
+       font-size: 14px;
+    }
+    .dealer .row .con-right .d-btn .b-2{
+        font-size: 14px;
+    }
+    .discount .row {
+        margin:0 10px;
+    }
+    .discount .row .d-card-1 h2{
+        font-size:25px;
+    }
+    .discount .row .d-card-1 h4{
+        font-size:12px;
+        font-weight:700;
+        color:var(--secondary);
+    }
+    .discount .row .d-card-1 p{
+        font-size:12px;
+        padding:30px 12px;
+    }
+    .testimonial .t-con h2{
+        font-size:50px;
+        font-weight:700;
+        color:var(--white);
+        padding-bottom: 15px;
+    }
+    .testimonial .t-con h5{
+        font-size:18px;
+        font-weight:700;
+        color:var(--secondary);
+        margin-bottom: -20px;
+    }
+    .testimonial .t-con .t-sub .left-slider a i{
+        display: none;
+    }
+    .testimonial .t-con .t-sub .right-slider a i{
+       display: none;
+    }
+    .blog .title{
+        padding:0 0 30px 0;
+    }
+    .blog .title p{
+        font-size:18px;
+        font-weight:700;
+        color:var(--secondary);
+        padding-bottom:16px;
+        position: relative;
+        z-index:1;
+        margin-bottom: -32px;
+
+    }
+    .blog .title span{
+        font-size:40px;
+        font-weight:700;
+        position:relative;
+        z-index:0;
+        color:var(--black);
+    }
+    .f-sub .email input{
+        padding: 18px;
+        border: none;
+        width: 120px;
+        font-size: 11px;
+        outline: none;
+    }
+    .f-sub .subscribe{
+        border: 2px solid var(--black);
+        background-color: var(--black);
+        color: var(--white);
+        padding: 16px;
+        font-weight: 600;
+        font-size: 11px;
+        transition:all 0.2s linear;
+        margin-left: -5px;
+    }
+}
+@media(max-width:375px){
+    .w-xxsm-1{width:8.33%;}
+    .w-xxsm-2{width:16.66%;}
+    .w-xxsm-3{width:25%;}
+    .w-xxsm-4{width:33.33%;}
+    .w-xxsm-5{width:41.66%;}
+    .w-xxsm-6{width:50%;}
+    .w-xxsm-7{width:58.33%;}
+    .w-xxsm-8{width:66.66%;}
+    .w-xxsm-9{width:75%;}
+    .w-xxsm-10{width:83.33%;}
+    .w-xxsm-11{width:91.66%;}
+    .w-xxsm-12{width:100%;}
+    .container{
+        max-width:360px;
+        margin:0 auto;
+    }
+    .about .row .con-left p{
+        font-size: 18px;
+        padding:15px 0;
+    }
+    .about .row .con-left .sign{
+        padding:10px 0;
+    }
+    .products .title span{
+        padding:10px 0;
+    }
+    .products .title ul{
+       display: none;
+    }
+    .products .row{
+        padding:15px 0;
+    }
+    .products .title span::after{
+        display:none;
+    }
+    .products .title p{
+        font-size:10px;
+        font-weight:700;
+        color:var(--secondary);
+        padding-bottom:16px;
+        position: relative;
+        z-index:1;
+        margin-bottom: -24px;
+    }
+    .products .title span{
+        font-size:32px;
+        font-weight:700;
+        position:relative;
+        z-index:0;
+        color:var(--white);
+    }.dealer .row .con-left span::before{
+        top:-5px;
+    }
+    .dealer .row .con-left span{
+        font-size: 100px;;
+    }
+    .dealer .row .con-right .d-btn .b-1{
+       padding:6px 20px;
+    }
+    .dealer .row .con-right .d-btn .b-2{
+        padding:6px 20px;
+    }
+    .testimonial .t-con h2{
+        font-size:40px;
+        font-weight:700;
+        color:var(--white);
+        padding-bottom: 15px;
+    }
+    .testimonial .t-con h5{
+        font-size:18px;
+        font-weight:700;
+        color:var(--secondary);
+        margin-bottom: -18px;
+    }
+}
+@media(max-width:320px){
+    .w-xxxsm-1{width:8.33%;}
+    .w-xxxsm-2{width:16.66%;}
+    .w-xxxsm-3{width:25%;}
+    .w-xxxsm-4{width:33.33%;}
+    .w-xxxsm-5{width:41.66%;}
+    .w-xxxsm-6{width:50%;}
+    .w-xxxsm-7{width:58.33%;}
+    .w-xxxsm-8{width:66.66%;}
+    .w-xxxsm-9{width:75%;}
+    .w-xxxsm-10{width:83.33%;}
+    .w-xxxsm-11{width:91.66%;}
+    .w-xxxsm-12{width:100%;}
+    .container{
+        max-width:300px;
+        margin:0 auto;
+    }
+}
